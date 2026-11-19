@@ -1,0 +1,6 @@
+anthropic>=2.11
+requests>=2.32
+pypdf>=5.0
+python-pptx>=1.0
+python-docx>=1.1
+yt-dlp[default]>=2025.11.12

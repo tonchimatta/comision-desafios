@@ -1,0 +1,202 @@
+{
+ "id": 23160,
+ "fecha": "2026-10-26",
+ "ficha": {
+  "id": 23160,
+  "fecha": "2026-10-26",
+  "inicio": "15:31",
+  "termino": "16:59",
+  "lugar": "Sala N° 1 de Comisiones, Ex Congreso Nacional, Santiago",
+  "fracasada": false,
+  "url": "https://www.senado.cl/actividad-legislativa/comisiones/941/23160",
+  "puntos": [
+   {
+    "numero": "1",
+    "boletin": "15869-19",
+    "tema": "Proyecto de ley que regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación.",
+    "aspectos_considerados": "Se continuó el estudio del referido proyecto de ley.",
+    "acuerdos": "Se aprobó el proyecto en general. Pasa a la Sala.",
+    "invitados": "Del Ministerio de Ciencia, Tecnología, Conocimiento e Innovación: la Ministra, señora Ximena Lincolao; el Asesor Legislativo, señor Alexis Sánchez; la Asesora Legislativa, señora Fernanda Orellana; la Asesora Legislativa, señora Sofía Sandoval; la Jefa de Prensa, señora Agustina González.",
+    "otros_asistentes": "Los asesores de los parlamentarios, señora Carolina Codocceo, señores Iván Vera (Honorable Senador señor Ricardo Celis), señores Óscar Soto (Honorable Senadora señora Yasna Provoste), Sebastián Castillo (Senadora señora Daniella Cicardini), señora Roser Rojas, Allone Barra (Senador señor Rojo Edwards) y señora Constanza Rifo (Senador señor Diego Ibáñez). \n\nDel Consejo Futuro, la Secretaria Ejecutiva, señora Carolina Muñoz, la Asesora, señora Patricia Farías y la Asesora Externa, señora Catalina Esperanza.\n\nDe la Biblioteca del Congreso Nacional, los asesores, señores Marek Hoehn y Víctor Soto.\n\nDel Comité RN, la Asesora, señora Elisa Ríos.\n\nEl Presidente de la Academia Chilena de Ciencias, señor Sergio Lavandero.\n\nEl Profesor de la Universidad de Chile, señor Juan Velásquez.\n\nDe la Secretaría General de la Presidencia (SEGPRES), el Asesor, señor Bernardo Pérez.\n\nVía Zoom\n\nDe la Universidad Católica del Maule, el Vicerrector de Investigación y Postgrado, señor Hernán Maureira.\n\nDe la Universidad del Biobío, señor Guillermo Petzold.\n\nLa ex Presidenta de la Academia Chilena de Ciencias, señora Cecilia Hidalgo.\n\nDel Ministerio de Relaciones Exteriores, de la División de Ciencias, Energía, Educación e Innovación y Astronomía (DECYTI), señores Pablo García e Ignacio Ross.",
+    "link_proyecto": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=15869-19",
+    "senadores": [
+     {
+      "nombre": "Senador Ibáñez Cotroneo Diego",
+      "tipo": "Asistente",
+      "nota": null
+     },
+     {
+      "nombre": "(Presidente) Senador Edwards Rojo",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senador Celis Araya Ricardo",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senadora Cicardini Milla Daniella",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senador Longton Herrera Andrés en reemplazo de Ossandón Irarrázabal Manuel José",
+      "tipo": "Reemplazante",
+      "nota": null
+     }
+    ]
+   },
+   {
+    "numero": "2",
+    "boletin": null,
+    "tema": "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán.",
+    "aspectos_considerados": "Se conoció el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.",
+    "acuerdos": "",
+    "invitados": "De la Gobernación Regional de Atacama: el Jefe de la División de Planificación y Desarrollo, señor Alejandro Escudero.\n\nDe la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama: el Director Ejecutivo y Antropólogo, señor Pablo Quilodrán; la Geóloga, señora Gyslaine Mansilla; de Administración y Finanzas, señor Marcelo Pizarro.",
+    "otros_asistentes": "Los asesores de los parlamentarios, señora Carolina Codocceo, señores Iván Vera (Honorable Senador señor Ricardo Celis), señores Óscar Soto (Honorable Senadora señora Yasna Provoste), Sebastián Castillo (Senadora señora Daniella Cicardini), señora Roser Rojas, Allone Barra (Senador señor Rojo Edwards) y señora Constanza Rifo (Senador señor Diego Ibáñez). \n\nDel Consejo Futuro, la Secretaria Ejecutiva, señora Carolina Muñoz, la Asesora, señora Patricia Farías y la Asesora Externa, señora Catalina Esperanza.\n\nDe la Biblioteca del Congreso Nacional, los asesores, señores Marek Hoehn y Víctor Soto.\n\nDel Comité RN, la Asesora, señora Elisa Ríos.\n\nEl Presidente de la Academia Chilena de Ciencias, señor Sergio Lavandero.\n\nEl Profesor de la Universidad de Chile, señor Juan Velásquez.\n\nDe la Secretaría General de la Presidencia (SEGPRES), el Asesor, señor Bernardo Pérez.\n\nVía Zoom\n\nDe la Universidad Católica del Maule, el Vicerrector de Investigación y Postgrado, señor Hernán Maureira.\n\nDe la Universidad del Biobío, señor Guillermo Petzold.\n\nLa ex Presidenta de la Academia Chilena de Ciencias, señora Cecilia Hidalgo.\n\nDel Ministerio de Relaciones Exteriores, de la División de Ciencias, Energía, Educación e Innovación y Astronomía (DECYTI), señores Pablo García e Ignacio Ross.",
+    "link_proyecto": null,
+    "senadores": [
+     {
+      "nombre": "Senador Ibáñez Cotroneo Diego",
+      "tipo": "Asistente",
+      "nota": null
+     },
+     {
+      "nombre": "(Presidente) Senador Edwards Rojo",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senador Celis Araya Ricardo",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senadora Cicardini Milla Daniella",
+      "tipo": "Integrante",
+      "nota": null
+     },
+     {
+      "nombre": "Senador Longton Herrera Andrés en reemplazo de Ossandón Irarrázabal Manuel José",
+      "tipo": "Reemplazante",
+      "nota": null
+     }
+    ]
+   }
+  ],
+  "documentos": [
+   {
+    "id": "26784",
+    "titulo": "Carta presentación",
+    "autor": "Honorable Senador señor Rojo Edwards",
+    "tema": "Regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+    "boletin": "15869-19",
+    "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/711941d7-0782-4812-ae9a-6dab089b32c1?includeContent=true"
+   },
+   {
+    "id": "26815",
+    "titulo": "Propuestas para la IA en Chile",
+    "autor": "Senador señor Rojo Edwards",
+    "tema": "Proyecto de ley que regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+    "boletin": "15869-19",
+    "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/f157ad8c-1777-423d-8b3a-5b7853b7bb72?includeContent=true"
+   },
+   {
+    "id": "26749",
+    "titulo": "Minuta Proyecto Paleontológico",
+    "autor": "Del Director Ejecutivo y Antropólogo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama, señor Pablo Quilodrán",
+    "tema": "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán.",
+    "boletin": null,
+    "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/e5669c04-81e2-4407-933c-edaad670e37b?includeContent=true"
+   },
+   {
+    "id": "26751",
+    "titulo": "Presentación Proyecto Paleontológico",
+    "autor": "Del Director Ejecutivo y Antropólogo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama, señor Pablo Quilodrán",
+    "tema": "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán.",
+    "boletin": null,
+    "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/f2fefa73-779f-48f2-8a3f-b1f32cfab41a?includeContent=true"
+   },
+   {
+    "id": "26783",
+    "titulo": "Fundamentos explicativos",
+    "autor": "Honorable Senador señor Rojo Edwards",
+    "tema": "Regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+    "boletin": "15869-19",
+    "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/cdb0434b-36ef-4af9-8e7f-5fb45aa54c5c?includeContent=true"
+   }
+  ]
+ },
+ "videos": [],
+ "duracion_total_s": null,
+ "documentos": [
+  {
+   "id": "26784",
+   "titulo": "Carta presentación",
+   "autor": "Honorable Senador señor Rojo Edwards",
+   "tema": "Regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+   "boletin": "15869-19",
+   "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/711941d7-0782-4812-ae9a-6dab089b32c1?includeContent=true",
+   "formato": "pdf",
+   "bytes": 32020,
+   "paginas": 1,
+   "archivo": "data/docs/2026-10-26_23160/26784-carta-presentacion.pdf",
+   "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26784-carta-presentacion.pdf"
+  },
+  {
+   "id": "26815",
+   "titulo": "Propuestas para la IA en Chile",
+   "autor": "Senador señor Rojo Edwards",
+   "tema": "Proyecto de ley que regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+   "boletin": "15869-19",
+   "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/f157ad8c-1777-423d-8b3a-5b7853b7bb72?includeContent=true",
+   "formato": "pdf",
+   "bytes": 432472,
+   "paginas": 25,
+   "archivo": "data/docs/2026-10-26_23160/26815-propuestas-para-la-ia-en-chile.pdf",
+   "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26815-propuestas-para-la-ia-en-chile.pdf"
+  },
+  {
+   "id": "26749",
+   "titulo": "Minuta Proyecto Paleontológico",
+   "autor": "Del Director Ejecutivo y Antropólogo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama, señor Pablo Quilodrán",
+   "tema": "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán.",
+   "boletin": null,
+   "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/e5669c04-81e2-4407-933c-edaad670e37b?includeContent=true",
+   "formato": "pdf",
+   "bytes": 25467652,
+   "paginas": 10,
+   "archivo": "data/docs/2026-10-26_23160/26749-minuta-proyecto-paleontologico.pdf",
+   "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26749-minuta-proyecto-paleontologico.pdf"
+  },
+  {
+   "id": "26751",
+   "titulo": "Presentación Proyecto Paleontológico",
+   "autor": "Del Director Ejecutivo y Antropólogo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama, señor Pablo Quilodrán",
+   "tema": "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán.",
+   "boletin": null,
+   "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/f2fefa73-779f-48f2-8a3f-b1f32cfab41a?includeContent=true",
+   "formato": "pdf",
+   "bytes": 8588244,
+   "paginas": 29,
+   "archivo": "data/docs/2026-10-26_23160/26751-presentacion-proyecto-paleontologico.pdf",
+   "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26751-presentacion-proyecto-paleontologico.pdf"
+  },
+  {
+   "id": "26783",
+   "titulo": "Fundamentos explicativos",
+   "autor": "Honorable Senador señor Rojo Edwards",
+   "tema": "Regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+   "boletin": "15869-19",
+   "url_original": "https://microservicio-documentos-lectura.senado.cl/v1/archivos/cdb0434b-36ef-4af9-8e7f-5fb45aa54c5c?includeContent=true",
+   "formato": "pdf",
+   "bytes": 134103,
+   "paginas": 3,
+   "archivo": "data/docs/2026-10-26_23160/26783-fundamentos-explicativos.pdf",
+   "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26783-fundamentos-explicativos.pdf"
+  }
+ ],
+ "actualizado": "2026-11-19T19:11:25-03:00",
+ "estado": "sin_resumen"
+}

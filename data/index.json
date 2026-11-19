@@ -1,0 +1,23 @@
+{
+ "actualizado": "2026-11-19T19:11:25-03:00",
+ "sesiones": [
+  {
+   "id": 23160,
+   "fecha": "2026-10-26",
+   "estado": "sin_resumen",
+   "titular": null,
+   "temas": [],
+   "relacionado_ia": null,
+   "boletines": [
+    "15869-19"
+   ],
+   "puntos": [
+    "Proyecto de ley que regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación.",
+    "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán."
+   ],
+   "documentos": 5,
+   "videos": [],
+   "archivo": "data/sessions/2026-10-26_23160.json"
+  }
+ ]
+}
