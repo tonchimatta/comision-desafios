@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T19:18:20-03:00",
+ "actualizado": "2026-11-19T19:55:48-03:00",
  "sesiones": [
   {
    "id": 23160,
@@ -16,7 +16,9 @@
     "Conocer el Proyecto Paleontológico de Atacama, primer centro-museo y parque paleontológico para Chile, que persigue consolidar a Atacama y a nuestro país como referente paleontológico del hemisferio sur, transformando este patrimonio en un motor de desarrollo.\n\nA este punto han sido especialmente invitados el Gobernador Regional de Atacama, señor Miguel Vargas, y el Director Ejecutivo de la Corporación de Investigación y Avance de la Paleontología e Historia Natural (CIAHN) de Atacama y antropólogo, señor Pablo Quilodrán."
    ],
    "documentos": 5,
-   "videos": [],
+   "videos": [
+    "https://www.youtube.com/watch?v=N1JFvpg0Zp8"
+   ],
    "archivo": "data/sessions/2026-10-26_23160.json"
   }
  ]

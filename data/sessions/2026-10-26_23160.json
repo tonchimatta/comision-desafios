@@ -128,8 +128,15 @@
    }
   ]
  },
- "videos": [],
- "duracion_total_s": null,
+ "videos": [
+  {
+   "id": "N1JFvpg0Zp8",
+   "titulo": "Comisión Desafíos del Futuro, Ciencia, Tecnología e Innovación  - 26 de Octubre 2026",
+   "parte": 1,
+   "url": "https://www.youtube.com/watch?v=N1JFvpg0Zp8"
+  }
+ ],
+ "duracion_total_s": 5293,
  "documentos": [
   {
    "id": "26784",
@@ -197,6 +204,6 @@
    "url_copia": "https://github.com/tonchimatta/comision-desafios/blob/main/data/docs/2026-10-26_23160/26783-fundamentos-explicativos.pdf"
   }
  ],
- "actualizado": "2026-11-19T19:11:25-03:00",
+ "actualizado": "2026-11-19T19:55:48-03:00",
  "estado": "sin_resumen"
 }
