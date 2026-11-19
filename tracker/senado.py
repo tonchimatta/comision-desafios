@@ -11,7 +11,10 @@ import requests
 COMISION_ID = 941  # Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación
 API = "https://web-back.senado.cl/api"
 WEB = "https://www.senado.cl/actividad-legislativa/comisiones"
-UA = {"User-Agent": "Mozilla/5.0 (compatible; comision-desafios-tracker)"}
+UA = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+    "Accept-Language": "es-CL,es;q=0.9",
+}
 
 _session = requests.Session()
 _session.headers.update(UA)
@@ -74,10 +77,14 @@ def url_sesion(id_sesion: int) -> str:
 
 def ficha_sesion(id_sesion: int) -> dict:
     """Detalle completo de una sesión: puntos de tabla, acuerdos, asistentes, documentos."""
-    html = _get(url_sesion(id_sesion)).text
+    r = _get(url_sesion(id_sesion))
+    html = r.text
     m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.S)
     if not m:
-        raise RuntimeError(f"No se pudo leer la ficha de la sesión {id_sesion}")
+        raise RuntimeError(
+            f"No se pudo leer la ficha de la sesión {id_sesion} "
+            f"(HTTP {r.status_code}, {len(html)} bytes): {re.sub(r'\s+', ' ', html[:300])}"
+        )
     data = json.loads(m.group(1))["props"]["pageProps"]["resource"]["data"]
     d = data["commissionSessionData"]
     if d.get("ID_COMISION") != COMISION_ID:
