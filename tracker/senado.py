@@ -1,8 +1,6 @@
 """Fuente oficial: senado.cl (fichas de sesión y documentos presentados)."""
 from __future__ import annotations
 
-import json
-import re
 import time
 from datetime import date, datetime
 
@@ -77,16 +75,12 @@ def url_sesion(id_sesion: int) -> str:
 
 def ficha_sesion(id_sesion: int) -> dict:
     """Detalle completo de una sesión: puntos de tabla, acuerdos, asistentes, documentos."""
-    r = _get(url_sesion(id_sesion))
-    html = r.text
-    m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.S)
-    if not m:
-        raise RuntimeError(
-            f"No se pudo leer la ficha de la sesión {id_sesion} "
-            f"(HTTP {r.status_code}, {len(html)} bytes): {re.sub(r'\s+', ' ', html[:300])}"
-        )
-    data = json.loads(m.group(1))["props"]["pageProps"]["resource"]["data"]
-    d = data["commissionSessionData"]
+    # www.senado.cl está detrás de una verificación de Cloudflare; la API interna no.
+    r = _get(f"{API}/commission_session", params={"id_sesion": id_sesion})
+    datos = r.json().get("data")
+    if not isinstance(datos, list) or not datos:
+        raise RuntimeError(f"No se pudo leer la ficha de la sesión {id_sesion} (HTTP {r.status_code}): {r.text[:300]}")
+    d = datos[0]
     if d.get("ID_COMISION") != COMISION_ID:
         raise RuntimeError(f"La sesión {id_sesion} no es de la comisión {COMISION_ID}")
 
