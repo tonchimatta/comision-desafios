@@ -2,12 +2,14 @@
 
 Sigue automáticamente las sesiones de la **Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación** del Senado de Chile, las resume y guarda todas las fuentes en este repositorio.
 
-Todos los días a las 18:00 (hora de Santiago) un GitHub Action:
+Todos los días a las 18:00 (hora de Santiago) un proceso en un Mac:
 
 1. Consulta en **senado.cl** las sesiones de la comisión. De cada una baja la ficha oficial, con los puntos de tabla, los acuerdos y los asistentes, y todos los **documentos presentados**.
 2. Busca el video de la sesión en el canal de **TV Senado** en YouTube y baja la transcripción automática.
 3. Resume la sesión con Claude (`claude-opus-5-5`), con especial énfasis en la regulación de la inteligencia artificial.
-4. Guarda todo en `data/` y envía el resumen por correo.
+4. Guarda todo en `data/`, lo sube a este repositorio y envía el resumen por correo.
+
+Corre en un Mac y no en GitHub Actions porque senado.cl está detrás de Cloudflare, que bloquea las consultas desde servidores en la nube.
 
 Si el video todavía no está publicado, espera hasta 7 días. Pasado ese plazo, resume solo con la ficha y los documentos. Si el Senado publica documentos nuevos de una sesión ya resumida, los baja, los resume y avisa por correo.
 
@@ -24,29 +26,24 @@ Fuentes: [senado.cl](https://www.senado.cl/actividad-legislativa/comisiones/941)
 
 ## Configuración
 
-Secretos del repositorio (Settings → Secrets and variables → Actions):
+Corre con `launchd` (`~/Library/LaunchAgents/com.tonchimatta.comision-desafios.plist`), que lanza `scripts/diario.sh` cada hora. El script trabaja una sola vez al día, a partir de las 18:00. Si el Mac estuvo apagado o dormido, se pone al día al encenderlo. El registro queda en `~/Library/Logs/comision-desafios.log`.
 
-| Secreto | Para qué sirve |
-|---|---|
-| `ANTHROPIC_API_KEY` | Generar los resúmenes |
-| `GMAIL_USER` | Cuenta de Gmail que envía el correo |
-| `GMAIL_APP_PASSWORD` | [Contraseña de aplicación](https://myaccount.google.com/apppasswords) de esa cuenta |
-| `EMAIL_TO` | Destinatario (opcional; por defecto, `GMAIL_USER`) |
-| `YT_COOKIES` | Opcional. Cookies de YouTube en formato Netscape, por si YouTube bloquea las descargas desde GitHub |
+Los secretos se guardan en el Llavero de macOS, con el servicio `comision-desafios`:
+
+```bash
+security add-generic-password -s comision-desafios -a ANTHROPIC_API_KEY -w
+security add-generic-password -s comision-desafios -a GMAIL_USER -w
+security add-generic-password -s comision-desafios -a GMAIL_APP_PASSWORD -w   # https://myaccount.google.com/apppasswords
+security add-generic-password -s comision-desafios -a EMAIL_TO -w             # opcional
+```
 
 `data/config.json` → `desde`: fecha desde la cual la corrida diaria procesa y envía sesiones.
 
 ## Uso manual
 
-Desde la pestaña **Actions → Tracker diario → Run workflow** se puede:
-
-- procesar una sesión puntual (`sesion`: ID de la sesión en senado.cl), o
-- cargar el historial (`backfill`: año, por ejemplo `2022`). El historial no envía correos.
-
-Para correrlo en local:
-
 ```bash
-pip install -r requirements.txt
-python -m tracker.run --sesion 23160 --sin-correo
-python -m tracker.run --backfill 2022
+uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
+scripts/diario.sh --sesion 23160            # una sesión puntual (envía correo)
+scripts/diario.sh --sesion 23160 --sin-correo
+scripts/diario.sh --backfill 2022           # historial desde la legislatura 2022-2023, sin correos
 ```

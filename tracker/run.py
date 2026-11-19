@@ -216,7 +216,7 @@ def reconstruir_indice() -> None:
 
 
 def toca_correr_hoy(estado: dict) -> bool:
-    """El cron corre a las 21 y 22 UTC; solo se ejecuta una vez al día, a partir de las 18:00 de Santiago."""
+    """launchd lo lanza cada hora; solo corre una vez al día (con éxito), a partir de las 18:00 de Santiago."""
     ahora = datetime.now(SANTIAGO)
     return ahora.hour >= 18 and estado.get("ultima_corrida") != ahora.date().isoformat()
 
@@ -228,10 +228,11 @@ def main() -> int:
     ap.add_argument("--sin-correo", action="store_true")
     ap.add_argument("--sin-resumen", action="store_true")
     ap.add_argument("--forzar", action="store_true", help="reprocesa aunque ya esté resumida")
+    ap.add_argument("--diario", action="store_true", help="corrida programada: solo una vez al día, desde las 18:00")
     args = ap.parse_args()
 
     config, estado = leer(CONFIG, {}), leer(ESTADO, {})
-    programada = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
+    programada = args.diario
     if programada and not toca_correr_hoy(estado):
         print("Fuera de horario o ya corrió hoy.")
         return 0
@@ -278,7 +279,7 @@ def main() -> int:
             traceback.print_exc()
 
     reconstruir_indice()
-    if programada:
+    if programada and not errores:  # si algo falló, se reintenta en la próxima hora
         estado["ultima_corrida"] = datetime.now(SANTIAGO).date().isoformat()
         escribir(ESTADO, estado)
     return 1 if errores else 0
